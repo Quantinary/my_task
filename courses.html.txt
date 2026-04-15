@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses - Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Courses</h1>
+        <p>Student: Abdalla Ahmed Nour El-Din | ID: 20250589</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">My Courses</a>
+        <a href="add.html">Add Course</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Course List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Credit Hours</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Internet Technology</td><td>Dr. Ahmed</td><td>3</td><td>Final project due tonight</td></tr>
+                    <tr><td>Programming C</td><td>Eng. Sarah</td><td>4</td><td>Study Pointers and Structs</td></tr>
+                    <tr><td>Calculus II</td><td>Dr. Hassan</td><td>3</td><td>Integration methods quiz</td></tr>
+                    <tr><td>Physics II</td><td>Dr. Laila</td><td>3</td><td>Ohm's Law Lab experiment</td></tr>
+                    <tr><td>Academic Writing</td><td>Dr. Mona</td><td>2</td><td>Submit research proposal</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 IT Task | Abdalla Ahmed Nour El-Din (20250589)</p>
+    </footer>
+</body>
+</html>

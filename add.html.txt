@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course - Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Add New Course</h1>
+        <p>Student: Abdalla Ahmed Nour El-Din | ID: 20250589</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">My Courses</a>
+        <a href="add.html">Add Course</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Course Details</h2>
+            <form>
+                <div class="form-group">
+                    <label>Course Name:</label>
+                    <input type="text" placeholder="Enter course name" required>
+                </div>
+                <div class="form-group">
+                    <label>Instructor:</label>
+                    <input type="text" placeholder="Instructor name" required>
+                </div>
+                <div class="form-group">
+                    <label>Credit Hours:</label>
+                    <input type="number" placeholder="Number of hours">
+                </div>
+                <div class="form-group">
+                    <label>Notes:</label>
+                    <textarea rows="4" placeholder="Any additional notes..."></textarea>
+                </div>
+                <button type="submit">Save Course Information</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 IT Task | Abdalla Ahmed Nour El-Din (20250589)</p>
+    </footer>
+</body>
+</html>

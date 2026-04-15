@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Student: Abdalla Ahmed Nour El-Din | ID: 20250589</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">My Courses</a>
+        <a href="add.html">Add Course</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Get In Touch</h2>
+            <p><strong>Email:</strong> abdalla20250589@university.edu</p>
+            <p><strong>Campus Location:</strong> New Cairo, Egypt</p>
+            <p><strong>Support Hours:</strong> Sunday - Thursday, 9 AM - 4 PM</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 IT Task | Abdalla Ahmed Nour El-Din (20250589)</p>
+    </footer>
+</body>
+</html>

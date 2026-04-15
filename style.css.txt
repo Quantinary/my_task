@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --text-color: #333;
+    --light-bg: #f4f4f4;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 { margin: 0; font-size: 2.5rem; }
+header p { margin: 10px 0 0; opacity: 0.9; font-size: 1.1rem; }
+
+nav {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease; /* Transition effect */
+}
+
+nav a:hover {
+    background: var(--secondary-color); /* Hover effect */
+    color: white;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+    min-height: 70vh;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 40px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th { background-color: var(--secondary-color); color: white; }
+tr:nth-child(even) { background-color: #f9f9f9; }
+
+/* Form Styling */
+form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group { display: flex; flex-direction: column; }
+label { font-weight: bold; margin-bottom: 5px; }
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background: var(--secondary-color);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background: #2980b9; transform: translateY(-2px); }
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav { flex-direction: column; }
+    header h1 { font-size: 1.8rem; }
+}

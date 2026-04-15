@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Course Organizer</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>Personal Course Organizer</h1>
+        <p>Student: Abdalla Ahmed Nour El-Din | ID: 20250589</p>
+    </header>
+    <nav> <a href="index.html">Home</a>
+        <a href="courses.html">My Courses</a>
+        <a href="add.html">Add Course</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Welcome to Your Academic Dashboard</h2>
+            <p>This organizer helps you manage your university courses, track your instructors, and keep your notes in one place. Use the navigation menu above to manage your courses.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 IT Task | Abdalla Ahmed Nour El-Din (20250589)</p>
+    </footer>
+</body>
+</html>
